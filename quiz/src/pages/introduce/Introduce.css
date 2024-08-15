@@ -10,7 +10,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, #646cff, #747bff);
+    background: linear-gradient(to bottom, #6A5ACD, #483D8B); /* Mavi-mor arası bir geçiş */
 }
 
 .introduce-container {
@@ -38,10 +38,10 @@ html, body {
     margin-bottom: 20px;
 }
 .introduce-btn{
-    width: 350%;
-    height: 50px;
+    width: 70%;
+    height: 40px;
     font-size: 17px;
-    bacground-color: #646cff;
+    background-color: #6A5ACD;
     color: black;
     border: 1px solid transparent;
     border-radius: 10px;
@@ -49,3 +49,5 @@ html, body {
     align-items: center;
     justify-content: center;
 }
+
+

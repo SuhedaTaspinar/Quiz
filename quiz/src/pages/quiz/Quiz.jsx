@@ -17,8 +17,8 @@ const Quiz = () => {
             const data = await api.fetchQuizData(difficulty, amount)
             setQuestionsData(data)
         }
-        getData();  // getData fonksiyonunu burada çağırman gerekiyor
-    }, [difficulty, amount]);  // Ayrıca dependency array'e difficulty ve amount'u ekledim
+        getData();
+    }, [difficulty, amount]);
 
     console.log(questionsData, "questionsData")
 

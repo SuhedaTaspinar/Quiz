@@ -10,7 +10,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, #6A5ACD, #483D8B); /* Mavi-mor arası bir geçiş */
+    background: linear-gradient(to bottom, #6A5ACD, #483D8B);
 }
 
 .introduce-container {
